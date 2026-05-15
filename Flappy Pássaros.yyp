@@ -36,14 +36,18 @@
   "name":"Flappy Pássaros",
   "resources":[
     {"id":{"name":"Note1","path":"notes/Note1/Note1.yy",},},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"rm_jogo","path":"rooms/rm_jogo/rm_jogo.yy",},},
     {"id":{"name":"spr_bg1","path":"sprites/spr_bg1/spr_bg1.yy",},},
-    {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},},
+    {"id":{"name":"spr_bg2","path":"sprites/spr_bg2/spr_bg2.yy",},},
+    {"id":{"name":"spr_bg3","path":"sprites/spr_bg3/spr_bg3.yy",},},
+    {"id":{"name":"spr_bg4","path":"sprites/spr_bg4/spr_bg4.yy",},},
+    {"id":{"name":"spr_bg5","path":"sprites/spr_bg5/spr_bg5.yy",},},
+    {"id":{"name":"spr_bg6","path":"sprites/spr_bg6/spr_bg6.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"rm_jogo","path":"rooms/rm_jogo/rm_jogo.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
