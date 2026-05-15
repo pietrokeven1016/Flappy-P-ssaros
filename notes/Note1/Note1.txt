@@ -1,7 +1,19 @@
 tela do jogo
 	fundo do jogo
 	background
+	resoluçao do jogo
 
+player
+	sprite
+	obj_player
+	cair 
+	subir ao apertar space
+	o passaro so pode bater asa quando apertar espaço
+
+obstaculo
+	arvore
+		fazer ele ir para a esquerda
+		fazer o player bater nele e avisar que bateu
 tela da loja
 
 
