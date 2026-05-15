@@ -14,6 +14,12 @@ obstaculo
 	arvore
 		fazer ele ir para a esquerda
 		fazer o player bater nele e avisar que bateu
+
+efeito de morte do player
+	pare tudo
+		player nao consegue bater asas
+		o background vai parar
+		o inimigo vai parar
 tela da loja
 
 
