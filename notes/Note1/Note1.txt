@@ -1,0 +1,9 @@
+tela do jogo
+	fundo do jogo
+	background
+
+tela da loja
+
+
+tela do menu
+
