@@ -1,0 +1,2 @@
+
+perde_jogo()

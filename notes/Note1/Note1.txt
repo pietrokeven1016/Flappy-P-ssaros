@@ -14,12 +14,30 @@ obstaculo
 	arvore
 		fazer ele ir para a esquerda
 		fazer o player bater nele e avisar que bateu
+	passaro
+		importar sprite
+		criar obj
+		criar layer
+		ir para a esquerda
+		colidir com o player
 
 efeito de morte do player
 	pare tudo
 		player nao consegue bater asas
 		o background vai parar
 		o inimigo vai parar
+		
+		
+geraçao procedural do level
+	arvore
+		de tempos em tempos ele vai criar uma arvore em uma posiçao especifica
+	passaros
+		intervalo de criaçao dos passaros sejam um pouco maior que o das arvores
+
+
+sistema de pontos
+	eu quero ganhar pontos o tempo todo se eu nao perdi o jogo
+
 tela da loja
 
 
