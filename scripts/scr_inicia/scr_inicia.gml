@@ -7,6 +7,15 @@ global.perdeu = 0;
 
 global.pontos = 0;
 
+global.level = 1;
+
+global.coletaveis = 0;
+
+//lista de pontos para subir de level
+
+global.lista_pontos = [100, 250, 500, 800, 1200, 1800, 2500, 3500, 5000]
+
+//array e uma variavel que pode ter varios valores
 
 #endregion
 

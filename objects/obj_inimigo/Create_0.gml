@@ -1,3 +1,3 @@
-hspeed = -3;
+//hspeed = -3;
 
 image_xscale = -1
