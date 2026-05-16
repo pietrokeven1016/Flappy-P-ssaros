@@ -70,7 +70,13 @@ criando um efeito de explosao para o coletavel
 fazendo o background mudar de velocidade com o aumento do level
 
 tela inicial
-
+	fazer o botao se desenhar
+	criar a fonte para o botao
+	use a fonte no texto do botao
+	fazer o botao desenhar o texto dele
+	faça com que o draw set font use a variavel font que foi criada no variavel
+	definitions
+	quando eu clicar no botao ele vai ficar mais estreito e mais alto
 
 
 tela da loja
