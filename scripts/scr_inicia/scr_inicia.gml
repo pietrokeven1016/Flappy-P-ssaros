@@ -15,6 +15,12 @@ global.coletaveis = 0;
 
 global.lista_pontos = [100, 250, 500, 800, 1200, 1800, 2500, 3500, 5000]
 
+global.destino = rm_jogo
+
+//variavel para saber se a transicao foi iniciada
+
+global.transicao = false
+
 //array e uma variavel que pode ter varios valores
 
 #endregion
@@ -37,11 +43,24 @@ function perde_jogo()
 	layer_hspeed("bg_3", 0)
 	layer_hspeed("bg_5", 0)
 	layer_hspeed("bg_7", 0)
-
-
+	
+	global.destino = rm_inicial
+	
 	alarm[0] = game_get_speed(gamespeed_fps);
+	//criando a transiçao 1
+	layer_sequence_create("transicao", 0, 0, sq_transicao1)
 
 }
 
+function muda_room()
+{
+	room_goto(global.destino)
+	global.transicao = true
+}
+
+function finaliza_transicao()
+{
+	global.transicao = false
+}
 #endregion
 

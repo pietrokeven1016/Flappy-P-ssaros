@@ -80,5 +80,11 @@ tela inicial
 
 
 tela da loja
-
+	criar essas variaveis
+		custo/valor/preço
+		sprite
+		bloqueado (true ou false)
+	fazer ele usar a sprite que foi determinada na variavel
+	ele vai desenhar de baixo dele o custo dele
+	
 
