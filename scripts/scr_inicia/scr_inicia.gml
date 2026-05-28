@@ -9,7 +9,7 @@ global.pontos = 0;
 
 global.level = 1;
 
-global.coletaveis = 100;
+global.coletaveis = 0;
 
 //lista de pontos para subir de level
 
