@@ -9,7 +9,7 @@ global.pontos = 0;
 
 global.level = 1;
 
-global.coletaveis = 0;
+global.coletaveis = 100;
 
 //lista de pontos para subir de level
 
@@ -22,6 +22,13 @@ global.destino = rm_jogo
 global.transicao = false
 
 //array e uma variavel que pode ter varios valores
+
+//variavel global para saber quem esta bloqueado
+//eu tenho 3 passaros
+//eu vou avisar se o item esta broqueado ou nao (true ou false)
+global.passaros_bloqueados = [false, true, true]
+
+global.sprite_player = spr_arara;
 
 #endregion
 
@@ -62,5 +69,6 @@ function finaliza_transicao()
 {
 	global.transicao = false
 }
+
 #endregion
 

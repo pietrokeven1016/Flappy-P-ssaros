@@ -86,5 +86,17 @@ tela da loja
 		bloqueado (true ou false)
 	fazer ele usar a sprite que foi determinada na variavel
 	ele vai desenhar de baixo dele o custo dele
+	se ele esta broqueado ele nao tem animaçao
+	
+	passaros
+		se a pessoa tem dinheiro suficiente e estou broqueado ai eu posso ser
+		desbloqueado
+		eu vou avisar a variavel global dos itens bloqueados no meu indice
+		e eu estou desbloqueado e eu tbm vou remover dos coletaveis o meu custo
+		eu preciso fazer o player usar a sprite do passaro que selecionei
+		se eu nao estou bloqueado e a pessoa clicou em mim entao a sprite 
+		global do player vai ser a minha sprite
+		se eu fui comprado agora mesmo eu tbm viro a sprite global do player
+		
 	
 
