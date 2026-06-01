@@ -97,6 +97,22 @@ tela da loja
 		se eu nao estou bloqueado e a pessoa clicou em mim entao a sprite 
 		global do player vai ser a minha sprite
 		se eu fui comprado agora mesmo eu tbm viro a sprite global do player
+	sound
+		ambiente
+			importar o sound 
+			fazer ele tocar quando começar a room do jogo
+			fazer ele para de tocar quando começar uma nova jogatina
+			fazer ele parar quando voltar para a room inicial
+		levelup
+			importar o sound
+			fazer ele tocar quando eu subir de level
+		pickup
+			importar o sound 
+			fazer ele tocar quando eu pego um coletavel
+	efeitos visuais do jogo
+		crie uma funçao para ativar ou desativar os efeitos sempre
+		que eu clicar no botao de efeitos ela roda 
+		sempre que eu entrar em um room ela roda
 		
 	
 

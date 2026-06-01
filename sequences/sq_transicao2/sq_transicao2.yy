@@ -25,7 +25,7 @@
           "0":{"$MomentsEventKeyframe":"","Events":[
               "finaliza_transicao",
             ],"resourceType":"MomentsEventKeyframe","resourceVersion":"2.0",},
-        },"Disabled":false,"id":"d38a6480-ed5d-48a6-b632-fd671f7c18ec","IsCreationKey":false,"Key":59.9999,"Length":1.0,"resourceType":"Keyframe<MomentsEventKeyframe>","resourceVersion":"2.0","Stretch":false,},
+        },"Disabled":false,"id":"2941090b-48a9-469f-bea9-15259a5659b8","IsCreationKey":false,"Key":39.0,"Length":1.0,"resourceType":"Keyframe<MomentsEventKeyframe>","resourceVersion":"2.0","Stretch":false,},
     ],
     "resourceType":"KeyframeStore<MomentsEventKeyframe>",
     "resourceVersion":"2.0",
@@ -100,7 +100,10 @@
             ],"resourceType":"KeyframeStore<RealKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"scale","resourceType":"GMRealTrack","resourceVersion":"2.0","trackColour":4282970722,"tracks":[],"traits":0,},
       ],"traits":0,},
   ],
-  "visibleRange":null,
+  "visibleRange":{
+    "x":0.0,
+    "y":59.9999,
+  },
   "volume":1.0,
   "xorigin":-320,
   "yorigin":-180,

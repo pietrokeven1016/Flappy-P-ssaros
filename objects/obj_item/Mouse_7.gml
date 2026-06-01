@@ -8,7 +8,7 @@ if (global.coletaveis >= valor and bloqueado == true)
 	global.coletaveis -= valor
 	global.sprite_player = sprite
 }
-else 
+else if (bloqueado == false)
 {
 	global.sprite_player = sprite
 }

@@ -3,6 +3,7 @@
 
 if (global.perdeu == true)
 {	
+	
 	hspeed = -2
 	
 	image_angle += 2
@@ -18,5 +19,30 @@ else
 //checando se eu bati na agua ou no ceu?
 
 
+if (invencivel == true)
+{
+	global.tempo_invencivel = global.tempo_invencivel - 1;
+	
+	if (global.tempo_invencivel <= 0)
+	{
+		invencivel = false;	
+	}
+}
 
+if (invencivel == true)
+{
+    image_alpha = 0.5 + random(0.5);
+	image_blend = choose(c_red, c_orange, c_blue, c_lime, c_yellow, c_aqua)
+}
+else
+{
+    image_alpha = 1;
+	image_blend = c_white
+}
+
+
+if (invencivel == true)
+{
+	global.pontos += 0.4
+}
 

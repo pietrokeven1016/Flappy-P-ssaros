@@ -1,9 +1,10 @@
+//iniciando o debug para ver o framerate do jogo
 
 
 #region variavel globais
 
 //variavel para saber se o jogador perdeu
-global.perdeu = 0;
+global.perdeu = false;
 
 global.pontos = 0;
 
@@ -30,6 +31,12 @@ global.passaros_bloqueados = [false, true, true]
 
 global.sprite_player = spr_arara;
 
+global.efeitos_on = true;
+
+global.record = 0;
+
+global.tempo_invencivel = 0;
+
 #endregion
 
 #region
@@ -39,8 +46,13 @@ function perde_jogo()
 {
 	//eu so posso perder se eu ainda nao perdi
 	if (global.perdeu == true) exit;
-	global.perdeu = true
-
+	if (not invencivel) 
+	{ 
+		global.perdeu = true 
+	}
+	
+	if (invencivel == true) exit
+	
 	//avisando que eu tenho que subir
 
 	vspeed = -4
@@ -70,5 +82,14 @@ function finaliza_transicao()
 	global.transicao = false
 }
 
+function efeitos()
+{
+	layer_enable_fx("bg_4", global.efeitos_on)
+	layer_enable_fx("bg_5", global.efeitos_on)
+	layer_enable_fx("bg_6", global.efeitos_on)
+	layer_enable_fx("bg_7", global.efeitos_on)
+	layer_enable_fx("coletaveis", global.efeitos_on)
+	layer_enable_fx("pena", global.efeitos_on)
+}
 #endregion
 
