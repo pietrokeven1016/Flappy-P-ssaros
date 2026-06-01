@@ -7,6 +7,7 @@ if (global.perdeu == false)
 	if (global.pontos > global.record)
 	{
 		global.record = global.pontos
+		scr_salvar();
 	}
 	
 

@@ -1,6 +1,8 @@
 
 global.coletaveis++
 
+scr_salvar();
+
 instance_destroy(other)
 
 //quando vc estar no evento de colisao

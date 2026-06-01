@@ -37,6 +37,8 @@ global.record = 0;
 
 global.tempo_invencivel = 0;
 
+scr_carregar();
+
 #endregion
 
 #region
