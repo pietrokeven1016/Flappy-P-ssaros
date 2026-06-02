@@ -18,4 +18,7 @@ if (image_index < 1)
 	image_speed = 1
 	vspeed = -5;
 	image_index = 1;
+	audio_stop_sound(snd_wing)
+	audio_play_sound(snd_wing, 1, 0)
 }
+

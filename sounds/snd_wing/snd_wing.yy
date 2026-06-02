@@ -1,18 +1,18 @@
 {
   "$GMSound":"v2",
-  "%Name":"snd_musica_fundo",
+  "%Name":"snd_wing",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
   },
   "bitDepth":1,
   "channelFormat":0,
-  "compression":3,
+  "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":80.24816,
+  "duration":0.93333334,
   "exportDir":"",
-  "name":"snd_musica_fundo",
+  "name":"snd_wing",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_musica_fundo.mp3",
-  "volume":0.1,
+  "soundFile":"snd_wing.wav",
+  "volume":0.67,
 }

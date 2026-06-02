@@ -15,4 +15,6 @@ if (file_exists("save.json"))
     global.coletaveis = _save.coletaveis;
 
     global.passaros_bloqueados = _save.passaros;
+	
+	
 }

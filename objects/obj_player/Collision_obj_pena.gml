@@ -1,6 +1,6 @@
 instance_destroy(other)
 
-invencivel = true;
+global.invencivel = true;
 
 audio_play_sound(snd_pickup, 1, 0)
 

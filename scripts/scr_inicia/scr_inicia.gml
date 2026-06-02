@@ -35,6 +35,8 @@ global.efeitos_on = true;
 
 global.record = 0;
 
+global.invencivel = false;
+
 global.tempo_invencivel = 0;
 
 scr_carregar();
@@ -48,12 +50,12 @@ function perde_jogo()
 {
 	//eu so posso perder se eu ainda nao perdi
 	if (global.perdeu == true) exit;
-	if (not invencivel) 
+	if (not global.invencivel) 
 	{ 
 		global.perdeu = true 
 	}
 	
-	if (invencivel == true) exit
+	if (global.invencivel == true) exit
 	
 	//avisando que eu tenho que subir
 
@@ -64,6 +66,8 @@ function perde_jogo()
 	layer_hspeed("bg_3", 0)
 	layer_hspeed("bg_5", 0)
 	layer_hspeed("bg_7", 0)
+	
+	audio_stop_all()
 	
 	global.destino = rm_inicial
 	
@@ -92,6 +96,7 @@ function efeitos()
 	layer_enable_fx("bg_7", global.efeitos_on)
 	layer_enable_fx("coletaveis", global.efeitos_on)
 	layer_enable_fx("pena", global.efeitos_on)
+	layer_enable_fx("inimigo", global.efeitos_on)
 }
 #endregion
 

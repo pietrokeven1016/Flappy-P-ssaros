@@ -11,6 +11,8 @@ _save.coletaveis = global.coletaveis;
 // salvar pássaros
 _save.passaros = global.passaros_bloqueados;
 
+
+
 // transformar em texto
 var _json = json_stringify(_save);
 
