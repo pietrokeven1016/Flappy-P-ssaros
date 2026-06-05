@@ -7,7 +7,7 @@ var _meu_y = random_range(8, 344)
 //criando o meu coletavel
 instance_create_layer(704, _meu_y, "pena", obj_pena)
 
-//chamando o alarm novamente entre 5 e 10 segundos
+//chamando o alarm novamente entre 20 e 25 segundos
 
 
 

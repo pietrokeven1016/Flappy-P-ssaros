@@ -11,7 +11,11 @@ _save.coletaveis = global.coletaveis;
 // salvar pássaros
 _save.passaros = global.passaros_bloqueados;
 
+//salvar a sprite do player
+_save.sprite_player = sprite_get_name(global.sprite_player);
 
+//salvar as mortes
+_save.mortes = global.mortes
 
 // transformar em texto
 var _json = json_stringify(_save);

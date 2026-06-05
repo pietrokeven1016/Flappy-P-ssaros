@@ -46,3 +46,10 @@ if (global.invencivel == true)
 	global.pontos += 0.4
 }
 
+if (global.sprite_player == spr_falcao_peregrino)
+{
+	if (keyboard_check(ord("H")) == true)
+	{
+		audio_play_sound(snd_falcon, 1, 0)		
+	}
+}

@@ -27,7 +27,7 @@ global.transicao = false
 //variavel global para saber quem esta bloqueado
 //eu tenho 3 passaros
 //eu vou avisar se o item esta broqueado ou nao (true ou false)
-global.passaros_bloqueados = [false, true, true]
+global.passaros_bloqueados = [false, true, true, true, true, true]
 
 global.sprite_player = spr_arara;
 
@@ -38,6 +38,11 @@ global.record = 0;
 global.invencivel = false;
 
 global.tempo_invencivel = 0;
+
+global.mortes = 0;
+
+randomise()
+
 
 scr_carregar();
 
@@ -74,6 +79,7 @@ function perde_jogo()
 	alarm[0] = game_get_speed(gamespeed_fps);
 	//criando a transiçao 1
 	layer_sequence_create("transicao", 0, 0, sq_transicao1)
+	global.mortes += 1;
 
 }
 

@@ -16,5 +16,12 @@ if (file_exists("save.json"))
 
     global.passaros_bloqueados = _save.passaros;
 	
+	if (variable_struct_exists(_save, "sprite_player"))
+	{
+		global.sprite_player = asset_get_index(_save.sprite_player);
+	}
+	
+	global.mortes = _save.mortes
+	
 	
 }

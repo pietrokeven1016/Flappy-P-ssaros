@@ -9,6 +9,7 @@
     {"name":"inst_28FB083B","path":"rooms/rm_inicial/rm_inicial.yy",},
     {"name":"inst_7659A68B","path":"rooms/rm_inicial/rm_inicial.yy",},
     {"name":"inst_45740042","path":"rooms/rm_inicial/rm_inicial.yy",},
+    {"name":"inst_48E5B0F5","path":"rooms/rm_inicial/rm_inicial.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -29,6 +30,7 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_botao_efeitos","path":"objects/obj_botao_efeitos/obj_botao_efeitos.yy",},"propertyId":{"name":"texto","path":"objects/obj_botao_efeitos/obj_botao_efeitos.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"EFEITOS",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_botao_efeitos","path":"objects/obj_botao_efeitos/obj_botao_efeitos.yy",},"propertyId":{"name":"fonte","path":"objects/obj_botao_efeitos/obj_botao_efeitos.yy",},"resource":{"name":"fnt_pontos","path":"fonts/fnt_pontos/fnt_pontos.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"fnt_pontos",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.4848485,"scaleY":0.75757575,"x":576.0,"y":320.0,},
+        {"$GMRInstance":"v4","%Name":"inst_48E5B0F5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_48E5B0F5","objectId":{"name":"obj_contador_mortes","path":"objects/obj_contador_mortes/obj_contador_mortes.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
       ],"layers":[],"name":"level","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Player","depth":300,"effectEnabled":true,"effectType":null,"gridX":8,"gridY":8,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"Player","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"coletaveis","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":8,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"coletaveis","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
